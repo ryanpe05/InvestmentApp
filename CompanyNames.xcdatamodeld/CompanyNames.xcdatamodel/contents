@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CapitalGains" representedClassName="CapitalGains" syncable="YES" codeGenerationType="class">
+        <attribute name="value" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Investments" representedClassName="Investments" syncable="YES" codeGenerationType="class">
+        <attribute name="buyDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coin" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="initials" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="initPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Recent" representedClassName=".RecentMO" syncable="YES" codeGenerationType="class">
+        <attribute name="coin" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="initials" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ticker" representedClassName=".TickerMO" syncable="YES" codeGenerationType="class">
+        <attribute name="initials" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CapitalGains" positionX="-36" positionY="45" width="128" height="60"/>
+        <element name="Investments" positionX="-54" positionY="18" width="128" height="135"/>
+        <element name="Recent" positionX="-63" positionY="0" width="128" height="90"/>
+        <element name="Ticker" positionX="-63" positionY="-18" width="128" height="75"/>
+    </elements>
+</model>
